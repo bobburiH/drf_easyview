@@ -17,9 +17,9 @@ Installation
 
 To install the Django EasyView package, follow these steps:
 
-1. Clone the package repository from `GitHub <https://github.com/bobburiH/django_easyview>`_.
-2. Copy the contents of the ``django_easyview`` folder to your project directory.
-3. Add ``'django_easyview'`` to the ``INSTALLED_APPS`` list in your project's settings file.
+1. Clone the package repository from `GitHub <https://github.com/bobburiH/drf_easyview>`_.
+2. Copy the ``drf_easyview`` folder to your project directory.
+3. Add ``'drf_easyview'`` to the ``INSTALLED_APPS`` list in your project's settings file.
 4. Include the package's URLs in your project's ``urls.py`` file:
 
    .. code-block:: python
@@ -28,7 +28,7 @@ To install the Django EasyView package, follow these steps:
 
       urlpatterns = [
           # ... other URL patterns
-          path('easyview/', include('django_easyview.urls')),
+          path('easyview/', include('drf_easyview.urls')),
       ]
 
 =====================================
