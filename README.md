@@ -72,8 +72,8 @@ Congratulations! You have successfully installed `django_easyview` and configure
 Please make sure that Django and Django REST Framework are installed and properly set up in your project before proceeding with the installation of `django_easyview`.
 7. Run server to create the necessary database tables for `django_easyview`:
 
-    ```shell
+   ```shell
     python manage.py runserver
-    ```
+   ```
 
 open /easyapi endpoint on your local server and find all models api viewsets.
