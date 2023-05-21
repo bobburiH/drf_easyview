@@ -1,5 +1,5 @@
 =====================================
-django_easyview Documentation
+drf_easyview Documentation
 =====================================
 
 .. toctree::
@@ -15,7 +15,7 @@ django_easyview Documentation
 Installation
 =====================================
 
-To install the Django EasyView package, follow these steps:
+To install the DRF EasyView package, follow these steps:
 
 1. Clone the package repository from `GitHub <https://github.com/bobburiH/drf_easyview>`_.
 2. Copy the ``drf_easyview`` folder to your project directory.
