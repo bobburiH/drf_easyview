@@ -61,14 +61,14 @@ Here's how you can use the package to create your custom API views:
 ### Database Migration
 Before using the package, run the database migration command to create the necessary tables:
 
-    ```shell
+    ```
     python manage.py migrate
     ```
 
 ### Starting the Server
 To start the development server and access the APIs provided by your models, use the following command:
 
-    ```shell
+    ```
     python manage.py runserver
     ```
 
