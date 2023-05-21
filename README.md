@@ -1,6 +1,8 @@
 # django_easyview
 Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.
 
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://django-easyview.readthedocs.io)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bobburiH/django_easyview/blob/master/LICENSE)
 
 # Django EasyView
 The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration with the admin site, generation of serializers and viewsets, and setup of URL patterns for API endpoints.
@@ -85,3 +87,7 @@ The Django DRF Package is released under the [MIT License](./LICENSE).
 
 ## Contact
 If you have any questions or feedback, please contact us at [bobburih@gmail.com].
+
+## Documentation
+
+The latest documentation for this project can be found at [django-easyview.readthedocs.io](https://django-easyview.readthedocs.io).
