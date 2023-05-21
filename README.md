@@ -61,16 +61,16 @@ Here's how you can use the package to create your custom API views:
 ### Database Migration
 Before using the package, run the database migration command to create the necessary tables:
 
-    ```
+    
     python manage.py migrate
-    ```
+    
 
 ### Starting the Server
 To start the development server and access the APIs provided by your models, use the following command:
 
-    ```
+    
     python manage.py runserver
-    ```
+    
 
 ### Accessing the APIs
 Once the server is running, you can access the APIs for your models by appending `/easyview/` to the base URL of your Django project.
