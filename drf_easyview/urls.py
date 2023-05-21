@@ -8,5 +8,5 @@ for viewset in viewsets:
     router.register(model_name, viewset)
 
 urlpatterns = [
-    path('easyapi/', include(router.urls)),
+    path('', include(router.urls)),
 ]
