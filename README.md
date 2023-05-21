@@ -28,10 +28,10 @@ Get started with Django EasyView today and streamline your API development workf
     git clone https://github.com/bobburiH/django_easyview
     ```
 
-2. Navigate to the cloned repository:
+2. copy folder inside cloned repository to root directory where project directory is located:
 
     ```shell
-    cd django_easyview
+    dir django_easyview
     ```
 
 3. Install the necessary prerequisites and dependencies, including Django and Django REST Framework:
@@ -70,5 +70,10 @@ Get started with Django EasyView today and streamline your API development workf
 Congratulations! You have successfully installed `django_easyview` and configured it for your Django project. By including `easyview` in your project's URLs, you will have the OpenAPI views ready to use.
 
 Please make sure that Django and Django REST Framework are installed and properly set up in your project before proceeding with the installation of `django_easyview`.
+7. Run server to create the necessary database tables for `django_easyview`:
+
+    ```shell
+    python manage.py runserver
+    ```
 
 open /easyapi endpoint on your local server and find all models api viewsets.
