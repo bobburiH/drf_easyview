@@ -1,16 +1,16 @@
-# django_easyview
+# drf_easyview
 Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.
 
-[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://django-easyview.readthedocs.io)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bobburiH/django_easyview/blob/master/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://drf-easyview.readthedocs.io)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bobburiH/drf_easyview/blob/master/LICENSE)
 
-# Django EasyView
-The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration with the admin site, generation of serializers and viewsets, and setup of URL patterns for API endpoints.
+# DRF EasyView
+The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration and generation of serializers and viewsets, and setup of URL patterns for API endpoints.
 
 
-Django EasyView is a lightweight package that automates the creation of Django REST Framework (DRF) API views for all models in your Django project. With EasyView, you can effortlessly generate API endpoints and serializers, enabling seamless CRUD (Create, Retrieve, Update, Delete) operations for your models.
+DRF EasyView is a lightweight package that automates the creation of Django REST Framework (DRF) API views for all models in your Django project. With EasyView, you can effortlessly generate API endpoints and serializers, enabling seamless CRUD (Create, Retrieve, Update, Delete) operations for your models.
 
-Simplify your development process and reduce boilerplate code by leveraging the power of Django EasyView. It provides an intuitive and efficient solution for quickly exposing your models as robust and customizable APIs, allowing you to focus on building your application's core functionalities.
+Simplify your development process and reduce boilerplate code by leveraging the power of DRF EasyView. It provides an intuitive and efficient solution for quickly exposing your models as robust and customizable APIs, allowing you to focus on building your application's core functionalities.
 
 **Key Features:**
 - Automatic generation of API views and serializers for all models
@@ -18,26 +18,26 @@ Simplify your development process and reduce boilerplate code by leveraging the 
 - Seamless integration with Django and Django REST Framework
 - Customizable options for fine-grained control over API behavior
 
-Get started with Django EasyView today and streamline your API development workflow!
+Get started with DRF EasyView today and streamline your API development workflow!
 
 # Django DRF Package
 
 ## Overview
-The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration with the admin site, generation of serializers and viewsets, and setup of URL patterns for API endpoints.
+The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration with generation of serializers and viewsets, and setup of URL patterns for API endpoints.
 
 ## Installation
 To install the Django DRF Package, follow these steps:
 
-1. Clone the package repository from [GitHub](https://github.com/bobburiH/django_easyview).
-2. Copy the contents of the `django_easyview` folder to your project directory.
-3. Add `'django_easyview'` to the `INSTALLED_APPS` list in your project's settings file.
+1. Clone the package repository from [GitHub](https://github.com/bobburiH/drf_easyview).
+2. Copy the contents of the `drf_easyview` folder to your project directory.
+3. Add `'drf_easyview'` to the `INSTALLED_APPS` list in your project's settings file.
 4. Include the package's URLs in your project's `urls.py` file:
 
         from django.urls import include, path
    
         urlpatterns = [
             # ... other URL patterns
-            path('easyview/', include('django_easyview.urls')),
+            path('easyview/', include('drf_easyview.urls')),
         ]
 
 ## Usage
@@ -90,4 +90,4 @@ If you have any questions or feedback, please contact us at [bobburih@gmail.com]
 
 ## Documentation
 
-The latest documentation for this project can be found at [django-easyview.readthedocs.io](https://django-easyview.readthedocs.io).
+The latest documentation for this project can be found at [drf-easyview.readthedocs.io](https://drf-easyview.readthedocs.io).
