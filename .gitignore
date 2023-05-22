@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific settings
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore media and static files (if you're using Django's default settings)
+media/
+static/
+
+# Ignore development and temporary files
+*.bak
+*.swp
+*~
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
