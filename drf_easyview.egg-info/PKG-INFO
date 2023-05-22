@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: drf-easyview
+Version: 2.0.1
+Summary: Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.
+Home-page: https://github.com/bobburiH/drf_easyview
+Author: Haritha Bobburi
+Author-email: bobburih@gmail.com
+Keywords: django drf package django-rest-framework authentication permissions REST API web development
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.0
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+Once models are created, you can add the Django EasyView package to your Django project to automatically create an OpenAPI for all your models. With the reference provided by the package, you can start creating custom API views based on your business or personal requirements.

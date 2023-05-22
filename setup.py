@@ -1,20 +1,22 @@
 from setuptools import setup
 
 setup(
-    name='django_easyview',
-    version='1.0',
+    name='drf_easyview',
+    version='2.0.1',
     description='Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.',
+    long_description='Once models are created, you can add the Django EasyView package to your Django project to automatically create an OpenAPI for all your models. With the reference provided by the package, you can start creating custom API views based on your business or personal requirements.',
     author='Haritha Bobburi',
     author_email='bobburih@gmail.com',
-    url='https://github.com/bobburiH/django_easyview',
-    packages=['django_easyview'],
+    url='https://github.com/bobburiH/drf_easyview',
+    packages=['drf_easyview'],
     install_requires=[
-        'Django',
+        'django',
         'djangorestframework',
         # Add any other dependencies required by your package
     ],
+    keywords='django drf package django-rest-framework authentication permissions REST API web development',
     classifiers=[
-        'Development Status :: 1 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',

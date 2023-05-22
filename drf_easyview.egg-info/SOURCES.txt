@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+drf_easyview/__init__.py
+drf_easyview/apps.py
+drf_easyview/serializers.py
+drf_easyview/urls.py
+drf_easyview/utils.py
+drf_easyview/views.py
+drf_easyview.egg-info/PKG-INFO
+drf_easyview.egg-info/SOURCES.txt
+drf_easyview.egg-info/dependency_links.txt
+drf_easyview.egg-info/requires.txt
+drf_easyview.egg-info/top_level.txt
