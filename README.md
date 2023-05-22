@@ -21,24 +21,40 @@ Simplify your development process and reduce boilerplate code by leveraging the 
 Get started with DRF EasyView today and streamline your API development workflow!
 
 # Django DRF Package
+# drf_easyview
 
-## Overview
-The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration with generation of serializers and viewsets, and setup of URL patterns for API endpoints.
+Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.
+
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://drf-easyview.readthedocs.io)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/bobburiH/drf_easyview/blob/master/LICENSE)
+
+## DRF EasyView
+
+The Django DRF Package is a convenient package designed to simplify the integration of Django and Django Rest Framework (DRF). It provides tools and utilities that automate common tasks, such as model registration and generation of serializers and viewsets, and setup of URL patterns for API endpoints.
 
 ## Installation
-To install the Django DRF Package, follow these steps:
 
-1. Clone the package repository from [GitHub](https://github.com/bobburiH/drf_easyview).
-2. Copy the contents of the `drf_easyview` folder to your project directory.
-3. Add `'drf_easyview'` to the `INSTALLED_APPS` list in your project's settings file.
-4. Include the package's URLs in your project's `urls.py` file:
+To install the package, you can use `pip`:
 
-        from django.urls import include, path
+    pip install drf-easyview==2.0.2
+
+## Usage
+
+To use the package in your Django project, follow these steps:
+
+1. Add `drf_easyview` to the `INSTALLED_APPS` list in your project's settings file.
+2. Include the package's URLs in your project's `urls.py` file:
+
+    ```python
+    from django.urls import include, path
    
-        urlpatterns = [
-            # ... other URL patterns
-            path('easyview/', include('drf_easyview.urls')),
-        ]
+    urlpatterns = [
+        # Other URL patterns
+        path('easyview/', include('drf_easyview.urls')),
+    ]
+    ```
+
+3. Start the server and check the root endpoint to have all your models APIs generated for you.
 
 ## Usage
 Once models are created, you can add this package to your Django project to automatically create an OpenAPI for all your models. With the reference provided by the package, you can start creating custom API views based on your business or personal requirements.

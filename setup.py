@@ -1,10 +1,14 @@
 from setuptools import setup
 
+with open('README.md', 'r') as f:
+    long_description = f.read()
+
 setup(
     name='drf_easyview',
-    version='2.0.1',
+    version='2.0.2',
     description='Rapidly generate DRF API views for all models in your Django project. Simplifies development, but use with caution in production.',
-    long_description='Once models are created, you can add the Django EasyView package to your Django project to automatically create an OpenAPI for all your models. With the reference provided by the package, you can start creating custom API views based on your business or personal requirements.',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     author='Haritha Bobburi',
     author_email='bobburih@gmail.com',
     url='https://github.com/bobburiH/drf_easyview',
